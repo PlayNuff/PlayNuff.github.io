@@ -2,14 +2,22 @@
     height: 100vh;
     background-color: blue;
     position: relative;
+    transition: 0.4s;
 }
 .zone2{
     height: 100vh;
     background-color: green;
+    transition: 0.4s;
 }
 .zone3{
     height: 100vh;
     background-color: violet;
+    transition: 0.4s;
+}
+.zone4{
+    height: 100vh;
+    background-color: red;
+    transition: 0.4s;
 }
 .bouton1{
     position: absolute;
@@ -18,4 +26,8 @@
     height: 50px;
     width: 100px;
     bottom:0;
+    transition: 0.4s;
+}
+input{
+    transition: 0.4s;
 }
