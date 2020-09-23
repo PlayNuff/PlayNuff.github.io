@@ -26,7 +26,12 @@
     height: 50px;
     width: 100px;
     bottom:0;
-    transition: 0.4s;
+    box-shadow: 10px 5px 5px black
+}
+
+.bouton1:active{
+    background-color: grey;
+    box-shadow: none;
 }
 input{
     transition: 0.4s;
