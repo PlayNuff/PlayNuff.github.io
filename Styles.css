@@ -1,6 +1,7 @@
 .zone1{
     height: 100vh;
     background-color: blue;
+    position: relative;
 }
 .zone2{
     height: 100vh;
@@ -11,7 +12,10 @@
     background-color: violet;
 }
 .bouton1{
-    position: fixed;
-    top: 940px;
+    position: absolute;
     
+    left: 50%;
+    height: 50px;
+    width: 100px;
+    bottom:0;
 }
